@@ -18,5 +18,5 @@ def plusOne(digits: list[int]) -> list[int]:
 
 print(plusOne([1,2,3]))
 print(plusOne([9]))
-print(plusOne([9,9])) #somehow this don't work in leetcode python3 but work on python
+print(plusOne([9,9]))
 print(plusOne([9,9,9,9]))

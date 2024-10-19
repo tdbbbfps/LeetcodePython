@@ -5,7 +5,7 @@ def isPalindrome(x):
     """
     if (x < 0):
         return False
-    #               reverse the string
+    #               reverse the string then check if is the same
     return str(x) == str(x)[::-1]
 
 print(isPalindrome(121))
